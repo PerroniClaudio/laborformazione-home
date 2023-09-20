@@ -60,7 +60,7 @@ async function AltaFormazione({}: Props) {
         <div
           className="bg-cover bg-center bg-no-repeat  hidden lg:block"
           style={{
-            backgroundImage: `url("${content?.image_top}")`,
+            backgroundImage: `url("${content?.image_right}")`,
           }}></div>
       </section>
     </>

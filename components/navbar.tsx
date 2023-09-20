@@ -11,6 +11,7 @@ import { FaUser } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import CircularButton from "@/components/ui/circularButton";
 import { HiBars3 } from "react-icons/hi2";
+import Link from "next/link";
 
 type Props = {};
 
@@ -26,8 +27,12 @@ function Navbar({}: Props) {
           <Button variant={"secondary"} className="font-extralight text-2xl">
             <CiSearch />
           </Button>
-          <Button className="w-24">Login</Button>
-          <Button className="w-24">Registrati</Button>
+          <Link href="https://laborformazione.it/login/">
+            <Button className="w-24">Login</Button>
+          </Link>
+          <Link href="https://laborformazione.it/register/">
+            <Button className="w-24">Registrati</Button>
+          </Link>
           <CircularButton variant="dark">
             <FaUser />
           </CircularButton>

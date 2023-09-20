@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${interFont.className} antialiased overflow-x-hidden`}>
         <TopBar />
-        <main className="max-w-7xl flex flex-col gap-4 mx-auto">
+        <main className="max-w-7xl flex flex-col gap-4 mx-auto pb-8">
           <Navbar />
           {children}
         </main>
