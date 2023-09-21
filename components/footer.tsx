@@ -112,6 +112,10 @@ function Footer({}: Props) {
                   <div></div>
                 </div>
               </div>
+              <div className="grid grid-cols-4 gap-2 items-center">
+                <img src="bureau.webp" alt="" className="w-48" />
+                <img src="cepas.webp" alt="" className="h-32" />
+              </div>
             </div>
           </div>
           <Separator orientation="horizontal" />
@@ -208,6 +212,15 @@ function Footer({}: Props) {
                   milano@laborproject.it
                 </a>
               </div>
+            </div>
+          </div>
+
+          <div className="flex items-center">
+            <div className="flex-1">
+              <img src="bureau.webp" alt="" />
+            </div>
+            <div className="flex-1 flex flex-col items-center justify-center">
+              <img src="cepas.webp" alt="" className="h-32" />
             </div>
           </div>
 
