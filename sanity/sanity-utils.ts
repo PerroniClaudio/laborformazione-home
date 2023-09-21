@@ -75,6 +75,7 @@ export async function getCorsi(): Promise<CoursesContent[]> {
 export async function getDicono(): Promise<DiconoContent[]> {
   return client.fetch(
     groq`*[_type == "dicono"]{
+            "id": _id,
             author,
             role,
             azienda,

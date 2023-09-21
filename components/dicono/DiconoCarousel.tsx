@@ -26,7 +26,7 @@ function DiconoCarousel({ content }: Props) {
         onSlideChange={() => console.log("slide change")}>
         {content.map((dicono) => {
           return (
-            <SwiperSlide className="px-16">
+            <SwiperSlide className="px-16" key={dicono.id}>
               <DiconoCard content={dicono} />
             </SwiperSlide>
           );
