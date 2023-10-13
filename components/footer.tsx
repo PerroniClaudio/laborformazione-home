@@ -97,7 +97,7 @@ function Footer({}: Props) {
                       </p>
                       <p>Privacy Desk Suisse SA</p>
                       <p>Società controllata da Labor Project srl</p>
-                      <p>Via Luigi Canonica,11</p>
+                      <p>Corso Elvezia, 16</p>
                       <p>6900 Lugano (Svizzera)</p>
                     </div>
                     <a
@@ -193,7 +193,7 @@ function Footer({}: Props) {
                 <p className="text-primary font-semibold uppercase">LUGANO</p>
                 <p>Privacy Desk Suisse SA</p>
                 <p>Società controllata da Labor Project srl</p>
-                <p>Via Luigi Canonica,11</p>
+                <p>Corso Elvezia, 16</p>
                 <p>6900 Lugano (Svizzera)</p>
               </div>
               <a href="mailto:info@privacydesk.ch" className="text-primary">
