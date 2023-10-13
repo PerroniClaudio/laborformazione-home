@@ -27,10 +27,10 @@ function Navbar({}: Props) {
           <Button variant={"secondary"} className="font-extralight text-2xl">
             <CiSearch />
           </Button>
-          <Link href="https://laborformazione.it/login/">
+          <Link href="https://corsi.laborformazione.it/login/">
             <Button className="w-24">Login</Button>
           </Link>
-          <Link href="https://laborformazione.it/register/">
+          <Link href="https://corsi.laborformazione.it/register/">
             <Button className="w-24">Registrati</Button>
           </Link>
           <CircularButton variant="dark">

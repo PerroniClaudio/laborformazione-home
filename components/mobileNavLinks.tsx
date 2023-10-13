@@ -25,17 +25,17 @@ function MobileNavLinks({}: Props) {
           <div className="flex flex-col gap-2 pl-4">
             <Link
               className="font-semibold text-primary"
-              href="https://laborformazione.it/aree-formative/?pagina=privacy">
+              href="https://corsi.laborformazione.it/aree-formative/?pagina=privacy">
               Area Privacy
             </Link>
             <Link
               className="font-semibold text-primary"
-              href="https://laborformazione.it/aree-formative/?pagina=legale">
+              href="https://corsi.laborformazione.it/aree-formative/?pagina=legale">
               Area Legale
             </Link>
             <Link
               className="font-semibold text-primary"
-              href="https://laborformazione.it/aree-formative/?pagina=cybersecurity">
+              href="https://corsi.laborformazione.it/aree-formative/?pagina=cybersecurity">
               Cybersecurity
             </Link>
           </div>

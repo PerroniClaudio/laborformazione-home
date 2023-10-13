@@ -22,7 +22,7 @@ async function AltaFormazione({}: Props) {
       <section className="grid gap-2 lg:gap-0 lg:grid-cols-3">
         <SimpleCard
           title="Area Privacy"
-          url="https://laborformazione.it/aree-formative/?pagina=privacy">
+          url="https://corsi.laborformazione.it/aree-formative/?pagina=privacy">
           <img
             src="./PRIVACY.svg"
             alt="Privacy Icon"
@@ -36,7 +36,7 @@ async function AltaFormazione({}: Props) {
           }}></div>
         <SimpleCard
           title="Area legale"
-          url="https://laborformazione.it/aree-formative/?pagina=legale">
+          url="https://corsi.laborformazione.it/aree-formative/?pagina=legale">
           <img
             src="./LEGALE.svg"
             alt="Privacy Icon"
@@ -50,7 +50,7 @@ async function AltaFormazione({}: Props) {
           }}></div>
         <SimpleCard
           title="Cyber security"
-          url="https://laborformazione.it/aree-formative/?pagina=cybersecurity">
+          url="https://corsi.laborformazione.it/aree-formative/?pagina=cybersecurity">
           <img
             src="./CYBER.svg"
             alt="Privacy Icon"

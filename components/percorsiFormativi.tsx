@@ -25,7 +25,7 @@ async function PercorsiFormativi({}: Props) {
 
       <section className="grid gap-8 p-4 lg:grid-cols-2 lg:p-0">
         <RoundedCard
-          url="https://laborformazione.it/corsi/?pagina=online"
+          url="https://corsi.laborformazione.it/corsi/?pagina=online"
           title={content?.card_first_title}
           variant="default">
           <div

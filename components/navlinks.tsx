@@ -61,15 +61,15 @@ function Navlinks({}: Props) {
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 grid-cols-1 w-[500px] text-center">
               <ListItem
-                href={`https://laborformazione.it/aree-formative/?pagina=privacy`}
+                href={`https://corsi.laborformazione.it/aree-formative/?pagina=privacy`}
                 title="Area Privacy"
               />
               <ListItem
-                href={`https://laborformazione.it/aree-formative/?pagina=legale`}
+                href={`https://corsi.laborformazione.it/aree-formative/?pagina=legale`}
                 title="Area Legale"
               />
               <ListItem
-                href={`https://laborformazione.it/aree-formative/?pagina=cybersecurity`}
+                href={`https://corsi.laborformazione.it/aree-formative/?pagina=cybersecurity`}
                 title="Cybersecurity"
               />
             </ul>

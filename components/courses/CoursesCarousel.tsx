@@ -30,7 +30,7 @@ function CoursesCarousel({ content }: Props) {
               <CourseCard
                 area={course.category}
                 title={course.title}
-                url={`https://laborformazione.it/corsi/online/?&corso=${course.crsno}`}
+                url={`https://corsi.laborformazione.it/corsi/online/?&corso=${course.crsno}`}
                 price={course.price}
                 variant={
                   course.category == "cybersecurity" ? "gulf" : "default"
