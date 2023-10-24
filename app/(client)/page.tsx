@@ -5,6 +5,8 @@ import Hero from "@/components/hero";
 import NostriNumeri from "@/components/nostriNumeri";
 import PercorsiFormativi from "@/components/percorsiFormativi";
 
+export const revalidate = 10;
+
 export default function Home() {
   return (
     <>

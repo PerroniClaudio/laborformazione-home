@@ -79,7 +79,10 @@ function Navlinks({}: Props) {
         <Separator orientation="vertical" />
 
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link
+            href="https://corsi.laborformazione.it/docenti/"
+            legacyBehavior
+            passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Docenti
             </NavigationMenuLink>
@@ -89,7 +92,10 @@ function Navlinks({}: Props) {
         <Separator orientation="vertical" />
 
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link
+            href="https://corsi.laborformazione.it/contatti/"
+            legacyBehavior
+            passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contatti
             </NavigationMenuLink>
