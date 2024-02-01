@@ -34,7 +34,7 @@ async function PercorsiFormativi({}: Props) {
           </div>
         </RoundedCard>
         <RoundedCard
-          url="https://www.laborprojectacademy.it/"
+          url="https://corsi.laborformazione.it/aree-formative/?pagina=eccellenza"
           title={content?.card_second_title}
           variant="gulf">
           <div
