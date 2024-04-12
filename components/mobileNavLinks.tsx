@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
+import { Button } from "./ui/button";
 
 type Props = {};
 
@@ -10,6 +11,8 @@ function MobileNavLinks({}: Props) {
 
   return (
     <div className="flex flex-col gap-2 p-4 bg-secondary rounded">
+      <Link href="https://corsi.laborformazione.it/login/"><Button className="w-full">Login</Button></Link>
+      <Link href="https://corsi.laborformazione.it/register/"><Button className="w-full">Registrati</Button></Link>
       <Link href="/" className="p-2 font-bold">
         Home
       </Link>
@@ -42,10 +45,10 @@ function MobileNavLinks({}: Props) {
         )}
       </div>
 
-      <Link href="/" className="p-2 font-bold">
+      <Link href="https://corsi.laborformazione.it/docenti/" className="p-2 font-bold">
         Docenti
       </Link>
-      <Link href="/" className="p-2 font-bold">
+      <Link href="https://corsi.laborformazione.it/contatti/" className="p-2 font-bold">
         Contatti
       </Link>
     </div>
