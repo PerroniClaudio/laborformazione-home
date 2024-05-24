@@ -41,6 +41,11 @@ function MobileNavLinks({}: Props) {
               href="https://corsi.laborformazione.it/aree-formative/?pagina=cybersecurity">
               Cybersecurity
             </Link>
+            <Link
+              className="font-semibold text-primary"
+              href="https://corsi.laborformazione.it/aree-formative/?pagina=artificialintelligence">
+              Intelligenza Artificiale
+            </Link>
           </div>
         )}
       </div>

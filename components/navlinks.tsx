@@ -72,6 +72,10 @@ function Navlinks({}: Props) {
                 href={`https://corsi.laborformazione.it/aree-formative/?pagina=cybersecurity`}
                 title="Cybersecurity"
               />
+              <ListItem
+                href={`https://corsi.laborformazione.it/aree-formative/?pagina=artificialintelligence`}
+                title="Intelligenza Artificiale"
+              />
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
