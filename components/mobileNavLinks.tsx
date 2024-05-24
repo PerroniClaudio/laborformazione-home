@@ -44,7 +44,7 @@ function MobileNavLinks({}: Props) {
             <Link
               className="font-semibold text-primary"
               href="https://corsi.laborformazione.it/aree-formative/?pagina=artificialintelligence">
-              Intelligenza Artificiale
+              Artificial Intelligence
             </Link>
           </div>
         )}

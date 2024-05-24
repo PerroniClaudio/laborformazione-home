@@ -74,7 +74,7 @@ function Navlinks({}: Props) {
               />
               <ListItem
                 href={`https://corsi.laborformazione.it/aree-formative/?pagina=artificialintelligence`}
-                title="Intelligenza Artificiale"
+                title="Artificial Intelligence"
               />
             </ul>
           </NavigationMenuContent>
