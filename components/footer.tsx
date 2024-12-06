@@ -80,8 +80,8 @@ function Footer({}: Props) {
                       <p className="text-primary font-semibold uppercase">
                         Milano
                       </p>
-                      <p>Viale Monza, 347</p>
-                      <p>20126 Milano (MI)</p>
+                      <p>Piazza IV Novembre, 7</p>
+                      <p>20124 Milano (MI)</p>
                     </div>
                     <a
                       href="mailto:milano@laborproject.it"
