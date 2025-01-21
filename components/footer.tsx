@@ -122,13 +122,13 @@ function Footer({}: Props) {
           <div className="flex justify-between p-4">
             <div className="flex gap-2 h-8 items-center">
               <Separator orientation="vertical" />
-              <Link href="/">Privacy Policy</Link>
+              <Link href="https://corsi.laborformazione.it/privacy/policy/">Privacy Policy</Link>
               <Separator orientation="vertical" />
-              <Link href="/">Cookie Policy</Link>
+              <Link href="https://corsi.laborformazione.it/privacy/cookie/">Cookie Policy</Link>
               <Separator orientation="vertical" />
-              <Link href="/">Codice Etico</Link>
+              <Link href="https://corsi.laborformazione.it/assets/assets/CodiceEticoLP200912.pdf">Codice Etico</Link>
               <Separator orientation="vertical" />
-              <Link href="/">Contatti</Link>
+              <Link href="https://corsi.laborformazione.it/contatti/">Contatti</Link>
               <Separator orientation="vertical" />
             </div>
             <div>
