@@ -2,7 +2,7 @@ import React from "react";
 import { getHero } from "@/sanity/sanity-utils";
 import Heading from "./ui/heading";
 import { Button } from "./ui/button";
-
+import Link from "next/link";
 type Props = {};
 
 async function Hero({}: Props) {
@@ -24,9 +24,11 @@ async function Hero({}: Props) {
             {content?.subtitle}
           </p>
         </div>
-        <Button className="block lg:hidden h-16 w-2/3 font-semibold text-xl uppercase mx-auto lg:mx-0">
-          Vai a tutti i corsi
-        </Button>
+        <Link className="flex lg:hidden w-full items-center justify-center" href={"https://corsi.laborformazione.it/corsi/?pagina=online"}>
+          <Button className=" h-16 w-2/3 font-semibold text-xl uppercase mx-auto lg:mx-0">
+            Vai a tutti i corsi
+          </Button>
+        </Link>
       </div>
     </section>
   );
