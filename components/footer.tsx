@@ -26,18 +26,26 @@ function Footer({}: Props) {
                   <p>P.I. 02725120139</p>
                 </div>
                 <div className="flex gap-1">
+                <Link href="https://www.instagram.com/laborproject_srl/" target="_blank">
                   <CircularButton variant="primary">
                     <FaInstagram />
                   </CircularButton>
+                </Link>
+                <Link href="https://www.facebook.com/LaborProjectSrl/" target="_blank">
                   <CircularButton variant="primary">
                     <FaFacebook />
                   </CircularButton>
+                </Link>
+                <Link href="https://www.linkedin.com/company/labor-project-srl/" target="_blank">
                   <CircularButton variant="primary">
                     <FaLinkedin />
                   </CircularButton>
+                </Link>
+                <Link href="https://www.youtube.com/@LaborProjectsrl" target="_blank">
                   <CircularButton variant="primary">
                     <FaYoutube />
                   </CircularButton>
+                </Link>
                 </div>
               </div>
             </div>
@@ -141,18 +149,26 @@ function Footer({}: Props) {
           <div className="grid grid-cols-2 gap-8 items-center">
             <Logo classname="w-full" />
             <div className="flex gap-1">
-              <CircularButton variant="primary">
-                <FaInstagram />
-              </CircularButton>
-              <CircularButton variant="primary">
-                <FaFacebook />
-              </CircularButton>
-              <CircularButton variant="primary">
-                <FaLinkedin />
-              </CircularButton>
-              <CircularButton variant="primary">
-                <FaYoutube />
-              </CircularButton>
+              <Link href="https://www.instagram.com/laborproject_srl/" target="_blank">
+                <CircularButton variant="primary">
+                  <FaInstagram />
+                </CircularButton>
+              </Link>
+              <Link href="https://www.facebook.com/LaborProjectSrl/" target="_blank">
+                <CircularButton variant="primary">
+                  <FaFacebook />
+                </CircularButton>
+              </Link>
+              <Link href="https://www.linkedin.com/company/labor-project-srl/" target="_blank">
+                <CircularButton variant="primary">
+                  <FaLinkedin />
+                </CircularButton>
+              </Link>
+              <Link href="https://www.youtube.com/@LaborProjectsrl" target="_blank">
+                <CircularButton variant="primary">
+                  <FaYoutube />
+                </CircularButton>
+              </Link>
             </div>
           </div>
 
